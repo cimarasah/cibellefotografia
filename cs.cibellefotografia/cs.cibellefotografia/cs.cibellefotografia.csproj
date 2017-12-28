@@ -149,6 +149,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="camera.ico" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\regna-master\animate.css" />
@@ -164,6 +165,11 @@
     <Content Include="fonts\regna-master\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\8.jpg" />
+    <Content Include="img\camera.png" />
+    <Content Include="img\LOGO 1.png" />
+    <Content Include="img\LOGO 2.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -193,6 +199,7 @@
     <Content Include="Scripts\regna-master\jquery-migrate.min.js" />
     <Content Include="Scripts\regna-master\jquery.min.js" />
     <Content Include="Scripts\regna-master\main.js" />
+    <Content Include="Scripts\regna-master\popper.js" />
     <Content Include="Scripts\regna-master\superfish.js" />
     <Content Include="Scripts\regna-master\superfish.min.js" />
     <Content Include="Scripts\regna-master\waypoints.min.js" />
@@ -235,6 +242,13 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>camera.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
